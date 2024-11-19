@@ -1,74 +1,45 @@
-<<<<<<< HEAD
-# chaina-sale
-=======
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Chaina-Sale
 
-## Available Scripts
+Chaina-Sale is a Chinese Auction web application that facilitates user authentication, gift donation with administrator approval, ticket purchasing, and lottery performance.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **User Authentication:** Secure user authentication system for accessing the application.
+- **Gift Donation:** Users can donate gifts which require administrator approval.
+- **Ticket Purchasing:** Users can purchase tickets for the raffle.
+- **Lottery Performance:** Conducts the actual lottery once tickets are purchased.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Client-side:** React
+- **Server-side:** C#
 
-### `npm test`
+## Key Implementations
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **API Security:** Implemented an API utilizing the JWT library for data security.
+- **Database Integration:** Employed EF Core with SQL Server integration for database interaction.
+- **Architecture:** Followed a multi-layered architecture approach for better organization and scalability.
+- **Services:** Implemented services for various functionalities.
+- **Design Patterns:** Utilized design patterns to improve code structure and maintainability.
+- **React Components:** Used components and React libraries for better UI/UX.
+- **Logging:** Implemented logging for system prompts and responses.
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository.
+2. Install dependencies for both the client-side and server-side.
+3. Configure the database connection.
+4. Run the application.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Provide instructions on how to use the application or any specific functionalities.
 
-### `npm run eject`
+## Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Specify guidelines for contributing to the project if applicable.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> master
+This project is licensed under the [MIT License](LICENSE).
