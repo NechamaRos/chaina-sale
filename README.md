@@ -34,11 +34,7 @@ Chaina-Sale is a Chinese Auction web application that facilitates user authentic
 
 ## Usage
 
-Provide instructions on how to use the application or any specific functionalities.
-
-## Contributing
-
-Specify guidelines for contributing to the project if applicable.
+Enter our website and start choosing equal prizes.
 
 ## License
 
